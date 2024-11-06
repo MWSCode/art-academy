@@ -83,4 +83,68 @@ header a {
 	width: 146px;
 	height: 66px;
 }
+nav {
+	margin-right: 1rem;
+}
+
+
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 66px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+section {
+   margin: 1rem;
+}
+
+/* Hero section */
+#hero {
+   min-height: 385px;
+   width: 100%;
+   overflow: hidden;
+   background: url("../images/hero.webp") no-repeat 80% 80% / 210%;
+   position: relative;
+   margin: 0;
+}
+#hero-h1 {
+   margin: 1rem 1rem 3rem 1rem;
+   text-align: center;
+   color: white;
+   text-shadow: 0 0 5px black;
+   font-size: 2rem;
+}
+#cover-text {
+   background-color: rgba(64, 0, 99, .6);
+   font-size: 100%;
+   display: inline-block;
+   color: white;
+   line-height: 1.5;
+   padding: 1rem;
+}
+#table_of_content {
+   margin-right: 1rem;
+   text-align: right;
+}
+#table_of_content a {
+   border: 3px solid var(--color-almost-black);
+   margin: 1rem;
+   padding: 0.3rem 1rem;
+   font-weight: 500;
+   display: inline-block;
+   text-decoration: none;
+   color: inherit;
+   border-radius: 10px;
+   transition: 1s ease all;
+   font-size: 95%;
+}
+#table_of_content a:hover{
+   background-color: var(--color-seasalt);
+   
+}
+
 
