@@ -7,3 +7,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* CSS Variables */
+:root {
+    --font: "Roboto", sans-serif;
+    --purple: #663399; /* purple */
+	--color-seasalt: #fafafa;
+}
+
+/* CSS Variables */
+:root {
+    --font: "Roboto", sans-serif;
+    --purple: #663399; /* purple */
+	--color-seasalt: #fafafa;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    font-family: var(--font);
+}
+
+h1, h2, h3 {
+    font-family: var(--font);
+    letter-spacing: 0;
+    color: var(--purple);
+	font-weight: 500;
+}
+
