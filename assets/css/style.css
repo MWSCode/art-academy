@@ -13,13 +13,7 @@
     --font: "Roboto", sans-serif;
     --purple: #663399; /* purple */
 	--color-seasalt: #fafafa;
-}
-
-/* CSS Variables */
-:root {
-    --font: "Roboto", sans-serif;
-    --purple: #663399; /* purple */
-	--color-seasalt: #fafafa;
+	--color-almost-black: #333;
 }
 
 /* General styles */
@@ -27,9 +21,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #333;
+    color: var(--color-almost-black);
     font-family: var(--font);
 }
+
 h1, h2, h3 {
     font-family: var(--font);
     letter-spacing: 0;
@@ -45,8 +40,7 @@ section h2 {
 section h3 {
 	font-size: 1rem;
 }
-
-/* Header */
+/* header-navbar */
 header {
     background-color: var(--color-seasalt);
     position: fixed;
@@ -87,64 +81,268 @@ nav {
 	margin-right: 1rem;
 }
 
-
 /* Main content */
 main {
-    /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 66px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
+     /* Enlarge main element to push footer down*/
+     flex: 1 0 auto;
+     margin-top: 66px;
+     display: flex;
+     flex-direction: column;
 }
 section {
-   margin: 1rem;
+	margin: 1rem;
 }
 
 /* Hero section */
 #hero {
-   min-height: 385px;
-   width: 100%;
-   overflow: hidden;
-   background: url("../images/hero.webp") no-repeat 80% 80% / 210%;
-   position: relative;
-   margin: 0;
+    min-height: 385px;
+    width: 100%;
+	overflow: hidden;
+    background: url("../images/hero.webp") no-repeat 80% 80% / 210%;
+    position: relative;
+	margin: 0;
 }
 #hero-h1 {
-   margin: 1rem 1rem 3rem 1rem;
-   text-align: center;
-   color: white;
-   text-shadow: 0 0 5px black;
-   font-size: 2rem;
+	margin: 1rem 1rem 3rem 1rem;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 5px black;
+	font-size: 2rem;
 }
 #cover-text {
-   background-color: rgba(64, 0, 99, .6);
-   font-size: 100%;
-   display: inline-block;
-   color: white;
-   line-height: 1.5;
-   padding: 1rem;
+    background-color: rgba(64, 0, 99, .6);
+    font-size: 100%;
+	display: inline-block;
+	color: white;
+	line-height: 1.5;
+	padding: 1rem;
 }
 #table_of_content {
-   margin-right: 1rem;
-   text-align: right;
+	margin-right: 1rem;
+	text-align: right;
 }
 #table_of_content a {
-   border: 3px solid var(--color-almost-black);
-   margin: 1rem;
-   padding: 0.3rem 1rem;
-   font-weight: 500;
-   display: inline-block;
-   text-decoration: none;
-   color: inherit;
-   border-radius: 10px;
-   transition: 1s ease all;
-   font-size: 95%;
+	border: 3px solid var(--color-almost-black);
+	margin: 1rem;
+	padding: 0.3rem 1rem;
+	font-weight: 500;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	border-radius: 10px;
+	transition: 1s ease all;
+	font-size: 95%;
 }
 #table_of_content a:hover{
-   background-color: var(--color-seasalt);
-   
+	background-color: var(--color-seasalt);
+	
 }
 
+/* #####  Media query: large or landscape phones (576px+) */
+@media screen and (min-width: 576px) {
+	/* header-navbar */
+	#logo {
+		background: url("../images/logo-full-2.png") no-repeat center / 140px;
+		width: 155px;
+		height: 66px;
+	}
+	#menu {
+		display: flex;
+		font-size: 120%;
+		list-style-type: none;
+		font-weight: 500;
+	}
+	#menu a {
+		padding: 0.3rem 1rem;
+	}
+	nav {
+		margin-right: 2rem;
+	}
+	
+	/* Hero section */
+	#table_of_content {
+		margin-right: 1rem;
+		text-align: right;
+	}
+	#table_of_content a {
+		border: 3px solid var(--color-almost-black);
+		margin: 1rem;
+		padding: 0.5rem 1.3rem;
+		font-weight: 500;
+		display: inline-block;
+		text-decoration: none;
+		color: inherit;
+		border-radius: 10px;
+		transition: 1s ease all;
+		font-size: 110%;
+	}
 
+	#hero {
+		min-height: 385px;
+		width: 100%;
+		overflow: hidden;
+		background: url("../images/hero.webp") no-repeat 80% 80% / 145%;
+		position: relative;
+	}
+	#hero-h1 {
+		margin: 1rem 1rem 4rem 1rem;
+		color: white;
+		text-shadow: 0 0 5px black;
+		font-size: 2.5rem;
+	}
+	#cover-text {
+		font-size: 110%;
+	}
+}
+
+/* Media query: tablets and larger (768px+) */
+@media screen and (min-width: 768px) {
+    /*  */
+	section h1 {
+		font-size: 2rem;
+	}
+	section h2 {
+		font-size: 1.5rem;
+	}
+	section h3 {
+		font-size: 1.5rem;
+	}
+	
+	/* header-navbar */
+	#menu {
+		display: flex;
+		font-size: 140%;
+		list-style-type: none;
+		font-weight: 500;
+	}
+	#menu a {
+		padding: 0.3rem 1rem;
+		margin-left: 3rem;
+	}
+	#menu a.active {
+		border-bottom: 4px solid var(--color-almost-black);
+	}
+	#menu a:hover {
+		border-bottom: 4px solid var(--color-almost-black);
+	}
+	
+    #logo {
+        background: url("../images/logo-full-2.png") no-repeat center / 200px;
+		width: 233px;
+		height: 100px;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down for larger header */
+        margin-top: 100px;
+    }
+	
+    /* Hero section */
+	#hero {
+		min-height: 455px;
+		width: 100%;
+		overflow: hidden;
+		background: url("../images/hero.webp") no-repeat 75% 75% / 130%;
+		position: relative;
+	}
+    #cover-text {
+		font-size: 130%;
+		line-height: 1.6;
+		padding: 1.5rem;
+	}
+	#hero-h1 {
+		margin: 2rem 4rem 4rem 4rem;
+		text-align: left;
+		color: white;
+		text-shadow: 0 0 5px black;
+		font-size: 3rem;
+	}
+	#table_of_content {
+		margin-right: 2rem;
+		text-align: right;
+		margin-top: 1rem;
+	}
+	#table_of_content a {
+		border: 3px solid var(--color-almost-black);
+		margin: 1rem;
+		padding: 0.5rem 1rem;
+		font-weight: 500;
+		display: inline-block;
+		text-decoration: none;
+		color: inherit;
+		border-radius: 10px;
+		transition: 1s ease all;
+		font-size: 140%;
+	}
+}
+
+/* Large devices (laptops and desktops, 992px+) */
+@media screen and (min-width: 992px) {
+	section h1 {
+		font-size: 3rem;
+	}
+	section h2 {
+		font-size: 2rem;
+	}
+	section h3 {
+		font-size: 2rem;
+	}
+	
+	/* header-navbar */
+	#logo {
+        background: url("../images/logo-full-2.png") no-repeat center / 200px;
+		width: 295px;
+		height: 100px;
+    }
+	nav {
+		margin-right: 4rem;
+	}
+	
+	#table_of_content {
+		margin-right: 3rem;
+	}
+	
+	/* Hero section */
+	#hero {
+		min-height: 555px;
+		width: 100%;
+		overflow: hidden;
+		background: url("../images/hero.webp") no-repeat 65% 65% / 120%;
+		position: relative;
+	}
+    #cover-text {
+		font-size: 160%;
+		line-height: 1.6;
+		padding: 1.5rem;
+		margin-left: 4rem;
+	}
+	#hero-h1 {
+		margin: 2rem 4rem 7rem 4rem;
+		text-align: left;
+		color: white;
+		text-shadow: 0 0 5px black;
+		font-size: 3rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {    
+    
+	/* Hero section */
+	#hero {
+		min-height: 655px;
+		width: 100%;
+		overflow: hidden;
+		background: url("../images/hero.webp") no-repeat 65% 65% / 118%;
+		position: relative;
+	}
+    #cover-text {
+		font-size: 190%;
+		line-height: 1.6;
+		padding: 2rem;
+		margin-left: 4rem;
+	}
+	#hero-h1 {
+		font-size: 4rem;
+	}
+}
