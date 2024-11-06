@@ -30,11 +30,57 @@ body {
     color: #333;
     font-family: var(--font);
 }
-
 h1, h2, h3 {
     font-family: var(--font);
     letter-spacing: 0;
     color: var(--purple);
 	font-weight: 500;
+}
+section h1 {
+	font-size: 1.5rem;
+}
+section h2 {
+	font-size: 1rem;
+}
+section h3 {
+	font-size: 1rem;
+}
+
+/* Header */
+header {
+    background-color: var(--color-seasalt);
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 4px #3a3a3a8f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+	display: flex;
+    font-size: 100%;
+    list-style-type: none;
+	font-weight: 500;
+}
+#menu a.active {
+    border-bottom: 3px solid var(--color-almost-black);
+}
+#menu a {
+	padding: 0.2rem 0.8rem;
+}
+#menu a:hover {
+	border-bottom: 3px solid var(--color-almost-black);
+}
+#logo {
+	background: url("../images/logo-full-2.png") no-repeat center / 140px;
+	width: 146px;
+	height: 66px;
 }
 
