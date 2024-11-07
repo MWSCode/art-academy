@@ -8,7 +8,7 @@ This imaginary art academy “Together Art Academy” showcases itself following
 - To attract followers and students who are interested in art and want to learn something, and to maintain an active membership count.
 - To let the visitor see and enjoy some of the artworks created there.
 
-![Responsive Mockup](https://mwresearch.github.io/art-academy/assets/images/mockup.webp)
+![Responsive Mockup](https://mwresearch.github.io/art-academy/doc_assets/mockup.webp)
 
 ## Specifications
 
