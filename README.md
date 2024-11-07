@@ -24,7 +24,7 @@ __Navigation Bar__
 
 The compact page navigation bar is always in sight at the top of the page. There is also a Table of content navigation at the top showing the content of the actual page.
 
-![Nav Bar](https://mwresearch.github.io/art-academy/doc_assets/navbar.webp)
+![Nav Bar](https://mwresearch.github.io/art-academy/doc_assets/Navbar.webp)
 
 __The landing page__
 
@@ -75,7 +75,8 @@ Multiple image sizes for landing page image, to make loading faster on mobile co
 This web template works perfectly fine on mobile and desktop computers. 
 I used https://pagespeed.web.dev for this test.  
 
-![desktop](https://mwresearch.github.io/art-academy/doc_assets/contact-section.webp)
+![desktop](https://mwresearch.github.io/art-academy/doc_assets/PageSpeed-desktop.webp)
+![mobile](https://mwresearch.github.io/art-academy/doc_assets/PageSpeed-mobile.webp)
 
 ### Unfixed Bugs
 
