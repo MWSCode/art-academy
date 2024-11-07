@@ -77,7 +77,6 @@ This web template works perfectly fine on mobile and desktop computers.
 I used https://pagespeed.web.dev for this test.  
 
 ![desktop](https://mwresearch.github.io/art-academy/doc_assets/PageSpeed-desktop.webp)
-![mobile](https://mwresearch.github.io/art-academy/doc_assets/PageSpeed-mobile.webp)
 
 ### Unfixed Bugs
 
