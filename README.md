@@ -44,7 +44,7 @@ In this section the visitor can learn about the history and the philosophy of th
 
 ![about](https://mwresearch.github.io/art-academy/doc_assets/about-section.webp)
 
-- __Footer - Contact Section__ 
+__Footer - Contact Section__ 
 
 The footer section includes contact addresses, opening times and links to the relevant social media sites.
 
@@ -67,7 +67,7 @@ Multiple image sizes for landing page image, to make loading faster on mobile co
 
 - HTML
   - No errors were returned when passing through the official  
-![html pass](https://mwresearch.github.io/art-academy/doc_assets/html_pass.webp)
+![html pass](https://mwresearch.github.io/art-academy/doc_assets/html_pass.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmwresearch.github.io%2Fart-academy%2F&usermedium=all&vextwarning=&warning=1)
 
