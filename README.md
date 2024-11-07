@@ -66,7 +66,8 @@ Multiple image sizes for landing page image, to make loading faster on mobile co
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official  
+![html pass](https://mwresearch.github.io/art-academy/doc_assets/html_pass.webp)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmwresearch.github.io%2Fart-academy%2F&usermedium=all&vextwarning=&warning=1)
 
