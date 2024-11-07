@@ -12,11 +12,11 @@ This imaginary art academy “Together Art Academy” showcases itself following
 
 ## Specifications
 
-This template version works without java script. 
-It uses latest HTML-5 and CSS-3 and current web design standards. 
-It works on all modern browsers that can handle flex-box and webp image format.
-I used mostly Webp image format, because it has a higher compression ratio than Jpeg but is clearly faster than Avif.
-This layout design works with a screen width resolution between 360px and 2600px.
+- This template version works without java script.  
+- It uses latest HTML-5 and CSS-3 and current web design standards.  
+- It works on all modern browsers that can handle flex-box and webp image format.  
+- I used mostly Webp image format, because it has a higher compression ratio than Jpeg but is clearly faster than Avif.  
+- This layout design works with a screen width resolution between 360px and 2600px.  
 
 ## Features
 
@@ -24,31 +24,31 @@ __Navigation Bar__
 
 The compact page navigation bar is always in sight at the top of the page. There is also a Table of content navigation at the top showing the content of the actual page.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://mwresearch.github.io/art-academy/doc_assets/navbar.webp)
 
 __The landing page__
 
 The landing page includes an eye catching photograph with text overlay which should draw the visitors attention and make more appetite to see more. And it makes clear what this site is about.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://mwresearch.github.io/art-academy/doc_assets/home-section.webp)
 
 __Services Section__
 
 This section shows what the academy offers including the different courses and programs.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![services](https://mwresearch.github.io/art-academy/doc_assets/services-section.webp)
 
 __About section__
 
 In this section the visitor can learn about the history and the philosophy of the academy.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![about](https://mwresearch.github.io/art-academy/doc_assets/about-section.webp)
 
 - __Footer - Contact Section__ 
 
 The footer section includes contact addresses, opening times and links to the relevant social media sites.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://mwresearch.github.io/art-academy/doc_assets/contact-section.webp)
 
 
 ### Features Left to Implement
@@ -57,9 +57,9 @@ The footer section includes contact addresses, opening times and links to the re
 - Signup page
 
 ### In future versions:
-A burger-menu will be added for smaller screen sizes, so that more menu items can fit in easily.
-An always visible table of content could also be added.
-Multiple image sizes for landing page image, to make loading faster on mobile computers.
+A burger-menu will be added for smaller screen sizes, so that more menu items can fit in easily.  
+An always visible table of content could also be added.  
+Multiple image sizes for landing page image, to make loading faster on mobile computers.  
 
 ## Testing 
 
@@ -68,7 +68,14 @@ Multiple image sizes for landing page image, to make loading faster on mobile co
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmwresearch.github.io%2Fart-academy%2F&usermedium=all&vextwarning=&warning=1)
+
+### Performance Tests
+
+This web template works perfectly fine on mobile and desktop computers. 
+I used https://pagespeed.web.dev for this test.  
+
+![desktop](https://mwresearch.github.io/art-academy/doc_assets/contact-section.webp)
 
 ### Unfixed Bugs
 
@@ -87,17 +94,17 @@ The live link can be found here - https://mwresearch.github.io/art-academy/
 ## Credits 
 
 ### Image sources used on this web template: 
-pexels.com
-Microsoft Copilot
-I’ve shot the homepage-hero-image myself, and mixed it with some AI-image.
+https://pexels.com  
+Microsoft Copilot  
+I’ve shot the homepage-hero-image myself, and mixed it with some AI-image.  
 
 ### Tools and services used:
-I’ve used a font from fonts.google.com.
-Icon-font from fontawesome.com
-The free Photo-editing software: photopea.com
-For the Favicons: favicon.io
-For the Device-Mockup image: https://techsini.com/multi-mockup
-Code editor: Gitpod Code  editor
+I’ve used a font from https://fonts.google.com.  
+Icon-font from https://fontawesome.com  
+The free Photo-editing software: https://photopea.com  
+For the Favicons: https://favicon.io  
+For the Device-Mockup image: https://techsini.com/multi-mockup  
+Code editor: Gitpod Code editor  
 
 Code was created using information provided by Codeinstitute, W3school , Stackoverflow , Youtube and myself.
 
