@@ -330,9 +330,9 @@ section {
 
 footer {
 	background-color: var(--color-grape);
-	padding: 1rem;
+	padding: 2rem;
 	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-bottom: 8rem;
 }
 
 footer h1 {
