@@ -8,7 +8,7 @@ This imaginary art academy “Together Art Academy” showcases itself following
 - To attract followers and students who are interested in art and want to learn something, and to maintain an active membership count.
 - To let the visitor see and enjoy some of the artworks created there.
 
-![Responsive Mockup](https://mwresearch.github.io/art-academy/doc_assets/mockup.webp)
+![Responsive Mockup](https://mwscode.github.io/art-academy/doc_assets/mockup.webp)
 
 ## Specifications
 
@@ -24,31 +24,31 @@ __Navigation Bar__
 
 The compact page navigation bar is always in sight at the top of the page. There is also a Table of content navigation at the top showing the content of the actual page.
 
-![Nav Bar](https://mwresearch.github.io/art-academy/doc_assets/Navbar.webp)
+![Nav Bar](https://mwscode.github.io/art-academy/doc_assets/Navbar.webp)
 
 __The landing page__
 
 The landing page includes an eye catching photograph with text overlay which should draw the visitors attention and make more appetite to see more. And it makes clear what this site is about.
 
-![Landing Page](https://mwresearch.github.io/art-academy/doc_assets/home-section.webp)
+![Landing Page](https://mwscode.github.io/art-academy/doc_assets/home-section.webp)
 
 __Services Section__
 
 This section shows what the academy offers including the different courses and programs.
 
-![services](https://mwresearch.github.io/art-academy/doc_assets/services-section.webp)
+![services](https://mwscode.github.io/art-academy/doc_assets/services-section.webp)
 
 __About section__
 
 In this section the visitor can learn about the history and the philosophy of the academy.
 
-![about](https://mwresearch.github.io/art-academy/doc_assets/about-section.webp)
+![about](https://mwscode.github.io/art-academy/doc_assets/about-section.webp)
 
 __Footer - Contact Section__ 
 
 The footer section includes contact addresses, opening times and links to the relevant social media sites.
 
-![Footer](https://mwresearch.github.io/art-academy/doc_assets/contact-section.webp)
+![Footer](https://mwscode.github.io/art-academy/doc_assets/contact-section.webp)
 
 
 ### Features Left to Implement
@@ -67,16 +67,16 @@ Multiple image sizes for landing page image, to make loading faster on mobile co
 
 - HTML
   - No errors were returned when passing through the official  
-![html pass](https://mwresearch.github.io/art-academy/doc_assets/html_pass.png)
+![html pass](https://mwscode.github.io/art-academy/doc_assets/html_pass.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmwresearch.github.io%2Fart-academy%2F&usermedium=all&vextwarning=&warning=1)
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmwscode.github.io%2Fart-academy%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Performance Tests
 
 This web template works perfectly fine on mobile and desktop computers. 
 I used https://pagespeed.web.dev for this test.  
 
-![desktop](https://mwresearch.github.io/art-academy/doc_assets/PageSpeed-desktop.webp)
+![desktop](https://mwscode.github.io/art-academy/doc_assets/PageSpeed-desktop.webp)
 
 ### Unfixed Bugs
 
@@ -89,7 +89,7 @@ I realized that on smartphones when I tab on the services-about-contact buttons,
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://mwresearch.github.io/art-academy/
+The live link can be found here - https://mwscode.github.io/art-academy/
 
 
 ## Credits 
